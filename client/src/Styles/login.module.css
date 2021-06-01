@@ -1,0 +1,96 @@
+.main {
+  background-color: #f0f2f5;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  background-image: url("../assets/images/loginback.jpg");
+  position: -webkit-sticky;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.formContainer {
+  margin-top: 90px;
+  border-radius: 30px;
+  width: 45%;
+  height: fit-content;
+  flex-direction: column;
+}
+
+.form {
+  height: 55vh;
+  min-height: 60vh;
+  width: 35vw;
+  top: 20%;
+  min-width: 350px;
+}
+.formContainer {
+  display: flex;
+  justify-content: center;
+  background-color: yellowgreen;
+  height: 400px;
+}
+.headerContainer {
+  color: #525252;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.inputsLabelContainer {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+.inputsContainer {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.btnContainer {
+  margin-left: 8vh;
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.alertContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  color: red;
+}
+
+@media screen and (max-width: 960px) {
+  div.form {
+    height: 65%;
+  }
+  div.formContainer {
+    width: 95%;
+  }
+
+  div.main {
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}

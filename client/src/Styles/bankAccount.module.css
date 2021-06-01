@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  min-width: 170px;
+}
+
+.formControl {
+  max-width: 160px;
+}
+
+.trashMobile {
+  display: none;
+}
+.pMobile {
+  display: none;
+}
+
+@media screen and (max-width: 930px) {
+  div.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  div.pMobile {
+    display: none;
+  }
+  div.trash {
+    display: none;
+  }
+  div.pMobile {
+    display: block;
+  }
+  div.trashMobile {
+    display: block;
+  }
+}

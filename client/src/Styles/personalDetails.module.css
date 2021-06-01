@@ -1,0 +1,108 @@
+.main {
+  background-color: #f0f2f5;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  background-image: url("../assets/images/personalback.jpg");
+  position: -webkit-sticky;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main img {
+  filter: blur(8px);
+  -webkit-filter: blur(3px);
+}
+
+.bgimage {
+  background-image: url("../assets/images/loginback.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(3px);
+  position: -webkit-sticky;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.formContainer {
+  margin-top: 80px;
+  border-radius: 30px;
+  width: 50%;
+  height: fit-content;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+.inputsLabelContainer {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
+.inputsContainer {
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+  margin-right: 20px;
+}
+.headerContainer {
+  color: #525252;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-right: 18px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.btnContainer {
+  margin-left: 8vh;
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.stepperContainer {
+  margin-top: 20px;
+  width: 100%;
+}
+
+@media screen and (max-width: 930px) {
+  div.formContainer {
+    width: 95%;
+  }
+
+  div.inputsContainer {
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    margin-right: 20px;
+  }
+  div.main {
+    background-color: #f0f2f5;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  div.headerContainer h3 {
+    font-size: medium;
+  }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}

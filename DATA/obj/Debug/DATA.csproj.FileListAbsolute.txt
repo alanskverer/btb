@@ -1,0 +1,12 @@
+C:\Users\Alan\Desktop\BTB\API\DATA\bin\Debug\DATA.dll.config
+C:\Users\Alan\Desktop\BTB\API\DATA\bin\Debug\DATA.dll
+C:\Users\Alan\Desktop\BTB\API\DATA\bin\Debug\DATA.pdb
+C:\Users\Alan\Desktop\BTB\API\DATA\bin\Debug\EntityFramework.dll
+C:\Users\Alan\Desktop\BTB\API\DATA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alan\Desktop\BTB\API\DATA\bin\Debug\EntityFramework.xml
+C:\Users\Alan\Desktop\BTB\API\DATA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alan\Desktop\BTB\API\DATA\obj\Debug\DATA.csprojAssemblyReference.cache
+C:\Users\Alan\Desktop\BTB\API\DATA\obj\Debug\DATA.csproj.CoreCompileInputs.cache
+C:\Users\Alan\Desktop\BTB\API\DATA\obj\Debug\DATA.csproj.CopyComplete
+C:\Users\Alan\Desktop\BTB\API\DATA\obj\Debug\DATA.dll
+C:\Users\Alan\Desktop\BTB\API\DATA\obj\Debug\DATA.pdb

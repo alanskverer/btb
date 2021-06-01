@@ -1,0 +1,77 @@
+.main {
+  background-color: #f0f2f5;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  background-image: url("../assets/images/lastpage.jpg");
+  position: -webkit-sticky;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.formContainer {
+  margin-top: 80px;
+  border-radius: 30px;
+  width: 50%;
+  height: fit-content;
+}
+.stepperContainer {
+  margin-top: 20px;
+  width: 100%;
+}
+.headerContainer {
+  color: #525252;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 20px;
+  min-width: 170px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.formControl {
+  max-width: 260px;
+}
+.sliderContainer {
+  display: flex;
+  width: 300px;
+  margin-right: 20px;
+}
+.smallHeaderContainer {
+  display: flex;
+  margin-right: 20px;
+  margin-top: 60px;
+}
+.btnContainer {
+  margin-left: 8vh;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-end;
+  padding: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.alertContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  color: red;
+}
+@media screen and (max-width: 930px) {
+  div.formContainer {
+    width: 95%;
+  }
+}
